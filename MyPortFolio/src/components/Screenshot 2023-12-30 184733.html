@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skills</title>
+
+    <style>
+      /*===== GOOGLE FONTS =====*/
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
+
+      /*===== VARIABLES CSS =====*/
+      :root {
+        --header-height: 3rem;
+        --font-medium: 500;
+      }
+      :root {
+        --first-color: #5361ff;
+        --white-color: #fafaff;
+        --dark-color: #2a3b47;
+        --text-color: #697477;
+      }
+
+      /*===== Fonts =====*/
+      :root {
+        --body-font: "Montserrat", sans-serif;
+        --big-font-size: 6.25rem;
+        --h2-font-size: 1.25rem;
+        --normal-font-size: 0.938rem;
+        --small-font-size: 0.813rem;
+      }
+      @media screen and (min-width: 768px) {
+        :root {
+          --big-font-size: 10.5rem;
+          --h2-font-size: 2rem;
+          --normal-font-size: 1rem;
+          --small-font-size: 0.875rem;
+        }
+      }
+
+      /*===== Margin =====*/
+      :root {
+        --mb-1: 0.5rem;
+        --mb-2: 1rem;
+        --mb-3: 1.5rem;
+        --mb-4: 2rem;
+      }
+
+      /*===== z index =====*/
+      :root {
+        --z-fixed: 100;
+      }
+      *,
+      ::before,
+      ::after {
+        box-sizing: border-box;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        margin: var(--header-height) 0 0 0;
+        font-family: var(--body-font);
+        font-size: var(--normal-font-size);
+        font-weight: var(--font-medium);
+        color: var(--text-color);
+        line-height: 1.6;
+      }
+      h1,
+      h2,
+      p {
+        margin: 0;
+      }
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      a {
+        text-decoration: none;
+        color: var(--text-color);
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+        display: inline;
+      }
+
+      /*===== classNameName CSS ===== */
+      .section {
+        padding: 3rem 0;
+      }
+      .section-title {
+        position: relative;
+        font-size: var(--h2-font-size);
+        color: var(--dark-color);
+        margin: var(--mb-4) 0;
+        text-align: center;
+      }
+      .section-title::after {
+        position: absolute;
+        content: "";
+        width: 32px;
+        height: 0.18rem;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 2rem;
+        background-color: var(--first-color);
+      }
+
+      /*===== LAYOUT =====*/
+      .bd-grid {
+        max-width: 1024px;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-column-gap: 2rem;
+        width: calc(100% - 2rem);
+        margin-left: var(--mb-2);
+        margin-right: var(--mb-2);
+      }
+      .l-header {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: var(--z-fixed);
+        background-color: var(--first-color);
+      }
+
+      .skills__container {
+        row-gap: 2rem;
+      }
+      .skills__subtitle {
+        color: var(--first-color);
+        margin-bottom: var(--mb-3);
+      }
+      .skills__name {
+        display: inline-block;
+        font-size: var(--small-font-size);
+        margin-right: var(--mb-2);
+        margin-bottom: var(--mb-3);
+        padding: 0.25rem 0.5rem;
+        background-color: var(--white-color);
+        border-radius: 0.25rem;
+      }
+      .skills__name:hover {
+        background-color: var(--first-color);
+        color: var(--white-color);
+      }
+      .skills__img img {
+        border-radius: 0.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <section classNameName="skills section" id="skills">
+      <h2 classNameName="section-title">Skills</h2>
+
+      <div classNameName="skills__container bd-grid">
+        <div classNameName="skills__box">
+          <h3 classNameName="skills__subtitle">Front End</h3>
+          <span classNameName="skills__name">HTML5</span>
+          <span classNameName="skills__name">CSS3</span>
+          <span classNameName="skills__name">Javascript</span>
+          <span classNameName="skills__name">Bootstrap</span>
+          <span classNameName="skills__name">TypeScript</span>
+          <span classNameName="skills__name">React</span>
+          <span classNameName="skills__name">Angular</span>
+
+          <h3 classNameName="skills__subtitle">Back End</h3>
+          <span classNameName="skills__name">Node Js</span>
+          <span classNameName="skills__name">Express Js</span>
+          <span classNameName="skills__name">MongoDB</span>
+          <span classNameName="skills__name">PostgreSQL</span>
+
+          <h3 classNameName="skills__subtitle">Business</h3>
+          <span classNameName="skills__name">Acquisition</span>
+          <span classNameName="skills__name">International trade</span>
+          <span classNameName="skills__name">Export/Import</span>
+          <span classNameName="skills__name">Logistic</span>
+          <span classNameName="skills__name">Sales</span>
+          <span classNameName="skills__name">IT hardware</span>
+          <span classNameName="skills__name">Customer relations/service</span>
+        </div>
+
+        <div classNameName="skills__img">
+          <img src="../assets/skill.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
