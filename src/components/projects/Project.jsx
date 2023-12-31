@@ -13,27 +13,25 @@ function Project() {
     {
       name: "Virtual Fitting Room",
       imageUrl: viton,
-      description: `Virtual try-on, also known as virtual fitting or virtual fitting room, is a technology that allows customers to try on products virtually, typically clothing .Developed and implemented Convolutional Neural Networks (CNN)
-      for accurate and realistic clothing item detection and fitting simulations`,
+      description: `Virtual try-on, also known as virtual fitting or virtual fitting room, is a technology that allows customers to try on products virtually .Developed and implemented Convolutional Neural Networks (CNN)
+     `,
       viewUrl:"https://github.com/Prajwal28432/ViFR"
     },
     { name: "Emojify", 
     imageUrl: emojify, 
-    description: `A real time application that can convert emotions into emojis, enhancing the expression and visual appeal of digital communication .Build using Tensorflow,OpenCV,Python ,CNN algorithm,Classification`,
+    description: `A real time application that can convert emotions into emojis.Build using Tensorflow,OpenCV,Python ,CNN algorithm,Classification`,
       viewUrl:"https://github.com/Prajwal28432/Emojify"
   },
     {
       name: "ExamSys",
       imageUrl: onexam,
-      description: `An online examination system is an online testing or e-assessment system, is a digital platform or software application that allows organizations, educational institutions to conduct  examinations online . Build using
-      CSS,JS,DjangO,ReactJs `,
+      description: `An online examination system is an online testing or e-assessment system Build using CSS,JS,DjangO,ReactJs `,
       viewUrl:'https://github.com/Prajwal28432/ExamSys'
     },
     {
       name: "HungerBites",
       imageUrl: hungerbites,
-      description: `Developed a responsive website that allow customers to order food and provide feedback.Design a Website using HTML,CSS and JS
-      Build backend of website using PHP and MySQL`,
+      description: `Developed a responsive website that allow customers to order food and provide feedback.Design a Website using HTML,CSS and JS PHP and MySQL`,
       viewUrl:'https://github.com/Prajwal28432/Hungerbites'
     },
     {
@@ -48,11 +46,11 @@ function Project() {
     // },
   ];
   return (
-    <div id="projects" className="lg:py-20 ">
+    <div id="projects" className="lg:py-20  ">
       <h1 className="text-4xl font-courier tracking-tight text-gray-900  sm:text-5xl mb-10">
         Projects
       </h1>
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-4 m">
+      <div className="grid grid-cols-1 md:grid-cols-3 justify-items-center gap-4 m">
         {projects.map((proj, i) => (
           <Card
             key={i}
