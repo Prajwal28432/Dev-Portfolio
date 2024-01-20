@@ -20,7 +20,7 @@ function Coding() {
                 LET ME{" "}
                 <span className="text-purple-600"> INTRODUCE </span> MYSELF
               </h1> */}
-              <p className="text-lg text-gray-100">
+              <p className=" sm:text-xs   text-gray-100">
                 🌟 Imagine a world where ideas come to life with just a few
                 lines of code. That's my playground, and I'm here to bring
                 innovation to reality.

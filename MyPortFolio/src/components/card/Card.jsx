@@ -5,7 +5,7 @@ function Card({ title, imageUrl, description ,viewUrl}) {
     <div className="max-w-xs bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 grid grid-cols-1 ">
       <a href="#">
         <img
-          className="rounded-t-lg"
+          className="rounded-t-lg "
           src={imageUrl}
           alt=""
           style={{ width: "auto", height: "200px", margin: "0 auto" }}
@@ -13,11 +13,11 @@ function Card({ title, imageUrl, description ,viewUrl}) {
       </a>
       <div className="p-3">
         <a href="#">
-          <h5 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+          <h5 className="mb-1 text-xs  font-bold tracking-tight text-gray-900 dark:text-white">
             {title}
           </h5>
         </a>
-        <p className="mb-3 font-normal text-justify justify-center text-gray-700 dark:text-gray-400">
+        <p className="mb-3 text-xs font-normal text-justify justify-center text-gray-700 dark:text-gray-400">
           {description}
         </p>
         <a

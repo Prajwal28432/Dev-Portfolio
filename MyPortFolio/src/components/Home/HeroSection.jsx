@@ -19,17 +19,18 @@ export default function HeroSection() {
             }}
           />
         </div>
-        <div className="mx-auto max-w-2xl py-12 sm:py-28 lg:py-26">
+        <div className="mx-auto max-w-2xl py-40 sm:py-28 lg:py-26">
           <div className="text-center">
             <div className="font-courier">
               <img
                 src={hacker}
+                className="sm:max-w-full mt-300 md:mt-30 lg:mt-30 justify-items-center sm:w-36 md:w-48  xl:w-64"
                 style={{ width: "200px", margin: "0 auto" }}
               ></img>
-              <p className="text-4xl font-tracking-tight text-gray-900 sm:text-6xl">
+            <p className="text-lg md:text-5xl lg:text-6xl font-tracking-tight text-gray-900">
                 Prajwal Farkunde
               </p>
-              <p className="mt-6 text-lg leading-8 text-gray-600">
+              <p className="mt-6 text-lg sm:text-xl leading-8 text-gray-600">
                 Hello! 👋 I'm a CS student with a deep passion for software
                 development. I am on a journey to become a skilled and
                 innovative software developer.

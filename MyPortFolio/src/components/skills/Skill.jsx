@@ -2,9 +2,9 @@ import React from "react";
 
 function Skill() {
   return (
-    <section id="skills" className="  font-courier    py-20 lg:py-21">
+    <section id="skills" className="  font-courier  sm:py-10 md:py-16   lg:py-21">
       <div className="mb-20 ">
-        <h1 className="text-4xl  tracking-tight text-gray-900 sm:text-5xl">
+        <h1 className=" md:text-4xl lg:text-6xl  tracking-tight text-gray-900 sm:text-2xl">
           Skills
         </h1>
         <div
@@ -19,33 +19,33 @@ function Skill() {
             }}
           />
         </div>
-        <div className="grid grid-cols-2 text-2xl gap-7 px-2   py-2 lg:py-10 md:grid-cols-4">
+        <div className="grid grid-cols-2   lg:grid-cols-4 sm:text-xs md:text-2xl lg:text-2xl gap-7 px-2   py-2 lg:py-10 md:grid-cols-4">
           <div className="">
-            <h2 className="mb-11   text-3xl text-indigo-600 uppercase ">
+            <h2 className="mb-11  text-xs md:text-2xl lg:text-3xl text-indigo-600 uppercase ">
               Programming{" "}
             </h2>
             <ul className="text-gray-500 dark:text-gray-600  font-medium">
-              <li className="mb-4 p-2 text-gray-100  dark:bg-gray-900 rounded-3xl   " >
+              <li className="mb-4  p-0 text-sm md:text-2xl lg:text-2xl text-gray-100  dark:bg-gray-900 rounded-3xl   " >
                 <a href="#" className=" " >
                   C
                 </a>
               </li>
-              <li className="mb-4 p-2 text-gray-100  dark:bg-gray-900 rounded-3xl ">
+              <li className="mb-4  p-0 text-sm md:text-2xl lg:text-2xl text-gray-100  dark:bg-gray-900 rounded-3xl ">
                 <a href="#" className="">
                   C++
                 </a>
               </li>
-              <li className="mb-4 p-2 text-gray-100  dark:bg-gray-900 rounded-3xl   ">
+              <li className="mb-4 p-0 text-sm md:text-2xl lg:text-2xl  text-gray-100  dark:bg-gray-900 rounded-3xl   ">
                 <a href="#" className="">
                   JavaScript
                 </a>
               </li>
-              <li className="mb-4 p-2 text-gray-100  dark:bg-gray-900 rounded-3xl ">
+              <li className="mb-4 p-2 p-0 text-sm md:text-2xl lg:text-2xl text-gray-100  dark:bg-gray-900 rounded-3xl ">
                 <a href="#" className="">
                   Python
                 </a>
               </li>
-              <li className="mb-4 p-2 text-gray-100  dark:bg-gray-900 rounded-3xl ">
+              <li className="mb-4  p-0 text-sm md:text-2xl lg:text-2xl text-gray-100  dark:bg-gray-900 rounded-3xl ">
                 <a href="#" className="">
                   Sql
                 </a>
@@ -53,16 +53,16 @@ function Skill() {
             </ul>
           </div>
           <div>
-            <h2 className="mb-11   text-3xl  text-indigo-600 uppercase ">
+            <h2 className="mb-11   text-xs md:text-2xl lg:text-3xl  text-indigo-600 uppercase ">
               Frontend
             </h2>
             <ul className="text-gray-500 dark:text-gray-600 font-medium">
-              <li className="mb-4 p-2 text-gray-100  dark:bg-gray-900 rounded-3xl ">
+              <li className="mb-4  p-0 text-sm md:text-2xl lg:text-2xl  text-gray-100  dark:bg-gray-900 rounded-3xl ">
                 <a href="#" className=" ">
                   ReactJS
                 </a>
               </li>
-              <li className="mb-4 p-2 text-gray-100  dark:bg-gray-900 rounded-3xl ">
+              <li className="mb-4 p-0 text-sm md:text-2xl lg:text-2xl text-gray-100  dark:bg-gray-900 rounded-3xl ">
                 <a href="#" className="">
                   TailWind
                 </a>
@@ -70,26 +70,26 @@ function Skill() {
             </ul>
           </div>
           <div>
-            <h2 className="mb-11   text-3xl  text-indigo-600 uppercase ">
+            <h2 className="mb-11   text-xs md:text-2xl lg:text-3xl  text-indigo-600 uppercase ">
               Backend
             </h2>
             <ul className="text-gray-500 dark:text-gray-600 font-medium">
-              <li className="mb-4 p-2 text-gray-100  dark:bg-gray-900 rounded-3xl ">
+              <li className="mb-4  p-0 text-sm md:text-2xl lg:text-2xl  text-gray-100  dark:bg-gray-900 rounded-3xl ">
                 <a href="#" className=" ">
                   NodeJs
                 </a>
               </li>
-              <li className="mb-4 p-2 text-gray-100  dark:bg-gray-900 rounded-3xl ">
+              <li className="mb-4  p-0 text-sm md:text-2xl lg:text-2xl text-gray-100  dark:bg-gray-900 rounded-3xl ">
                 <a href="#" className="">
                   RestAPI
                 </a>
               </li>
-              <li className="mb-4 p-2 text-gray-100  dark:bg-gray-900 rounded-3xl ">
+              <li className="mb-4  p-0 text-sm md:text-2xl lg:text-2xl text-gray-100  dark:bg-gray-900 rounded-3xl ">
                 <a href="#" className="">
                   Express.js
                 </a>
               </li>
-              <li className="mb-4 p-2 text-gray-100  dark:bg-gray-900 rounded-3xl ">
+              <li className="mb-4  p-0 text-sm md:text-2xl lg:text-2xl text-gray-100  dark:bg-gray-900 rounded-3xl ">
                 <a href="#" className="">
                   Django
                 </a>
@@ -97,26 +97,26 @@ function Skill() {
             </ul>
           </div>
           <div>
-            <h2 className="mb-11   text-3xl  text-indigo-600 uppercase ">
+            <h2 className="mb-11   text-xs md:text-2xl lg:text-3xl  text-indigo-600 uppercase ">
               Other TechStack
             </h2>
             <ul className="text-gray-500 dark:text-gray-600 font-medium">
-              <li className="mb-4 p-2 text-gray-100  dark:bg-gray-900 rounded-3xl ">
+              <li className="mb-4  p-0 text-sm md:text-2xl lg:text-2xl text-gray-100  dark:bg-gray-900 rounded-3xl ">
                 <a href="#" className=" ">
                   MySql
                 </a>
               </li>
-              <li className="mb-4 p-2 text-gray-100  dark:bg-gray-900 rounded-3xl ">
+              <li className="mb-4  p-0 text-sm md:text-2xl lg:text-2xl text-gray-100  dark:bg-gray-900 rounded-3xl ">
                 <a href="#" className="">
                   MongoDB
                 </a>
               </li>
-              <li className="mb-4 p-2 text-gray-100  dark:bg-gray-900 rounded-3xl ">
+              <li className="mb-4  p-0 text-sm md:text-2xl lg:text-2xl text-gray-100  dark:bg-gray-900 rounded-3xl ">
                 <a href="#" className="">
                   GIT
                 </a>
               </li>
-              <li className="mb-4 p-2 text-gray-100  dark:bg-gray-900 rounded-3xl ">
+              <li className="mb-4 p-0 text-sm md:text-2xl lg:text-2xl text-gray-100  dark:bg-gray-900 rounded-3xl ">
                 <a href="#" className="">
                   Postman
                 </a>
